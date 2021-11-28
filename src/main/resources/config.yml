@@ -1,0 +1,64 @@
+options:
+  cell-world: "Celule"
+  portal-enter-command: "dm open cellportalmenu %player%"
+  level-1:
+    minutes-played: 60
+    price: 100.0
+    wall-materials:
+      - "STAINED_GLASS"
+    coords:
+      walls:
+        loc1:
+          x: "%x% - 4"
+          y: "%y% + 3"
+          z: "%z%"
+        loc2:
+          x: "%x% + 4"
+          y: "%y%"
+          z: "%z% - 8"
+      region:
+        loc1:
+          x: "%x% - 4"
+          y: "%y% + 3"
+          z: "%z%"
+        loc2:
+          x: "%x% + 4"
+          y: "%y%"
+          z: "%z% - 8"
+  level-2:
+    minutes-played: 120
+    price: 200.0
+    wall-materials:
+      - "STAINED_GLASS"
+    coords:
+      walls:
+        loc1:
+          x: "%x% - 8"
+          y: "%y% + 3"
+          z: "%z%"
+        loc2:
+          x: "%x% + 8"
+          y: "%y%"
+          z: "%z% - 16"
+      region:
+        loc1:
+          x: "%x% - 8"
+          y: "%y% + 3"
+          z: "%z%"
+        loc2:
+          x: "%x% + 8"
+          y: "%y%"
+          z: "%z% - 16"
+  messages:
+    reload: "&ePrison &8| &fPlugin reincarcat cu succes!"
+    onlyplayer: "&ePrison &8| &fAceasta comanda poate sa fie executata doar de catre un jucator!"
+    cell-upgraded-level-1: "&ePrison &8| &fTi-ai upgradat celula de la level 1 la level 2!"
+    cell-upgraded-level-2: "&ePrison &8| &fTi-ai upgradat celula de la level 2 la level 3!"
+    cell-max-level: "&ePrison &8| &fCelula ta este deja la level 3!"
+    invalid-cell: "&ePrison &8| &fO eroare a intervenit! Contacteaza un administrator!"
+    no-cell: "&ePrison &8| &fNu detii nicio celula! Scrie /cell pentru a face o celula!"
+    not-minutes-level-1: "&ePrison &8| &fNu ai destul timp jucat pe server pentru a trece la urmatorul nivel de celula! Trebuie sa ai minim &e%minutes% &fminute jucate! &6(%played%)"
+    not-minutes-level-2: "&ePrison &8| &fNu ai destul timp jucat pe server pentru a trece la urmatorul nivel de celula! Trebuie sa ai minim &e%minutes% &fminute jucate! &6(%played%)"
+    not-money-level-1: "&ePrison &8| &fNu ai destui bani pentru a trece la urmatorul nivel de celula! Trebuie sa ai minim &e%money-needed% &f! &6(%money%)"
+    not-money-level-2: "&ePrison &8| &fNu ai destui bani pentru a trece la urmatorul nivel de celula! Trebuie sa ai minim &e%money-needed% &f! &6(%money%)"
+cells-level-storage:

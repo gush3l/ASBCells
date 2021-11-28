@@ -1,0 +1,13 @@
+name: ASkyBlockCells
+version: ${project.version}
+main: me.gushel.askyblockcells.ASkyBlockCells
+depend: [PlayCells,WorldGuard,WorldEdit]
+load: STARTUP
+author: gush3l#6016
+commands:
+  cellupgrade:
+    description: Upgrade player cell
+    aliases: [cellup]
+  ASkyBlockCells:
+    description: ASkyBlockCells base command.
+    aliases: [pca,ASkyBlockCells]
